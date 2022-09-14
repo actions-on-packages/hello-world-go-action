@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
           
       - name: Running action   
-        uses: ./
+        uses: actions-on-packages/hello-world-go-action@1.0.0
         id: run-action
 
       
