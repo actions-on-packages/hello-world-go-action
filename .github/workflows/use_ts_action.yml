@@ -8,3 +8,5 @@ jobs:
     steps:
        - name: Ts Action
          uses: actions-on-packages/typescript-action@1.0.0
+         with:
+              milliseconds : 1000
