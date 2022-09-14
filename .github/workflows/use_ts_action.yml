@@ -1,0 +1,10 @@
+name: 'AOP-test'
+on: # rebuild any PRs and main branch changes
+  workflow_dispatch:
+
+jobs:
+  build: # make sure build/ci work properly
+    runs-on: ubuntu-latest
+    steps:
+       - name: Ts Action
+         uses: actions-on-packages/typescript-action@1.0.0
