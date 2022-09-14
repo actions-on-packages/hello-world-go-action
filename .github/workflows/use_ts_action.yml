@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: Ts Action
-         uses: actions-on-packages/typescript-action@1.0.0
+         uses: actions-on-packages/aop_test_actions@1.0.0
          with:
               milliseconds : 1000
