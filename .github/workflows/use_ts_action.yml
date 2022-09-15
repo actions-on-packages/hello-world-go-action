@@ -6,7 +6,9 @@ jobs:
   build: # make sure build/ci work properly
     runs-on: ubuntu-latest
     steps:
+       - name: Checkout
+         uses: actions/checkout@v3
        - name: Ts Action
-         uses: actions-on-packages/aop_test_actions@1.0.0
+         uses: actions-on-packages/typescript-action@1.0.3
          with:
               milliseconds : 1000
