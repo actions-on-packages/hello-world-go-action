@@ -26,7 +26,8 @@ jobs:
 #           output: 'minify/src/' # (OPTIONAL)
         
       - name: Publish action 
-        uses: actions-on-packages/package-action@add-release-workflow
+#         uses: actions-on-packages/package-action@add-release-workflow
+        uses: actions-on-packages/package-action@ruchika-jain/new-avoid-cp-branch
 #        with: 
 #            path: 'dist/'
         
