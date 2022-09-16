@@ -1,4 +1,4 @@
-name: 'AOP-test'
+name: 'AOP-test-TS-action'
 on: # rebuild any PRs and main branch changes
   workflow_dispatch:
 
