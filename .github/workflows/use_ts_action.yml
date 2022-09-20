@@ -10,7 +10,7 @@ jobs:
          uses: actions/checkout@v3
        - name: Ts Action
 #          uses: actions-on-packages/typescript-action@1.0.12 //Working till setup
-         uses: actions-on-packages/typescript-action@1.4.1
+         uses: actions-on-packages/typescript-action@1.4.2
          with:
               milliseconds : 1000
 
