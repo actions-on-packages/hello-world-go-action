@@ -27,7 +27,7 @@ jobs:
         
       - name: Publish action 
 #         uses: actions-on-packages/package-action@add-release-workflow
-        uses: actions-on-packages/package-action@0.2.0
+        uses: actions-on-packages/package-action@ruchika-jain/aop-test-pkg-action
 #        with: 
 #            path: 'dist/'
         
