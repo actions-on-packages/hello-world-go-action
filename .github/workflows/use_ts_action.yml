@@ -4,8 +4,8 @@ on: # rebuild any PRs and main branch changes
   workflow_call:
 
 jobs:
-#   reusable_workflow_job:
-#     uses: raju-dasupally/sample-action/.github/workflows/test.yml@main
+  reusable_workflow_job:
+    uses: raju-dasupally/sample-action/.github/workflows/test.yml@main
   build: # make sure build/ci work properly
     runs-on: self-hosted
     steps:
