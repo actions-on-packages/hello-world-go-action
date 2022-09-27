@@ -12,7 +12,7 @@ jobs:
        - name: Checkout
          uses: actions/checkout@v3
        - name: Ts Action
-         uses: actions-on-packages/typescript-action@1.4.3
+         uses: actions-on-packages/typescript-action@1.4.4
          with:
               milliseconds : 1000
 
