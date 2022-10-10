@@ -7,7 +7,7 @@ jobs:
 #   reusable_workflow_job:
 #     uses: raju-dasupally/sample-action/.github/workflows/test.yml@main
   build: # make sure build/ci work properly
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
        - name: Checkout
          uses: actions/checkout@v3
