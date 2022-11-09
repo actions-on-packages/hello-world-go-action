@@ -9,7 +9,7 @@ on: # rebuild any PRs and main branch changes
 
 jobs:
   test: # make sure the action works on a clean machine without building
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checking out!
         uses: actions/checkout@v3
