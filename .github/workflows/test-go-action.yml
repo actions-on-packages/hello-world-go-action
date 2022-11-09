@@ -16,6 +16,7 @@ jobs:
           
       - name: Running action   
         uses: actions-on-packages/hello-world-go-action@1.1.4
+#         uses: ./
         id: run-action
 
       
