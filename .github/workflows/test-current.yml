@@ -1,4 +1,4 @@
-name: 'test-go-action'
+name: 'test-current-go'
 on: # rebuild any PRs and main branch changes
 #   pull_request:
 #   push:
