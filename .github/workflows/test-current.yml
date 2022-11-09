@@ -1,0 +1,20 @@
+name: 'test-go-action'
+on: # rebuild any PRs and main branch changes
+#   pull_request:
+#   push:
+#     branches:
+#       - main
+#       - 'releases/*'
+  workflow_dispatch:
+
+jobs:
+  test: # make sure the action works on a clean machine without building
+    runs-on: macos-latest
+    steps:
+      - name: Checking out!
+        uses: actions/checkout@v3
+          
+      - name: Running action   
+#         uses: actions-on-packages/hello-world-go-action@1.1.4
+        uses: ./
+        id: run-action
