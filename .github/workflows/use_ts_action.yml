@@ -12,7 +12,7 @@ jobs:
        - name: Checkout
          uses: actions/checkout@v3
        - name: Ts Action
-         uses: actions-on-packages/ghcr-immutibality@3.0.3
+         uses: actions-on-packages/typescript-action@1.4.15
          with:
               milliseconds : 1000
 
